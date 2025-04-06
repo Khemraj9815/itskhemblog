@@ -6,22 +6,31 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: "its'khem",
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/Khemraj9815/itskhemblog',
 			},
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'Linux',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
+						{ label: 'Linux Fundamentals', slug: 'hackthebox/linux' },
+						{label: "Linux Distros", slug: 'hackthebox/linux_distros'},
+						{label: "Shell", slug: "hackthebox/shell"}
 					],
 				},
-				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
-				},
+				// {
+				// 	label: 'Guides',
+				// 	items: [
+				// 		// Each item here is one entry in the navigation menu.
+				// 		{ label: 'Example Guide', slug: 'guides/example' },
+				// 	],
+				// },
+				// {
+				// 	label: 'Reference',
+				// 	autogenerate: { directory: 'reference' },
+				// },
 			],
 		}),
 	],
