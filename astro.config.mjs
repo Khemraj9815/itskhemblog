@@ -17,7 +17,10 @@ export default defineConfig({
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Linux Fundamentals', slug: 'hackthebox/linux' },
 						{label: "Linux Distros", slug: 'hackthebox/linux_distros'},
-						{label: "Shell", slug: "hackthebox/shell"}
+						{label: "Shell", slug: "hackthebox/shell"},
+						{label: "Getting Help", slug: "hackthebox/gettinghelp"},
+						{label: "System Information", slug: "hackthebox/systeminfo"},
+						
 					],
 				},
 				// {

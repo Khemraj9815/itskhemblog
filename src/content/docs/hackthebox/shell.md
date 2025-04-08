@@ -16,3 +16,9 @@ Terminal Emulator is software that emulates the function of a terminal. A termin
 
 Imagine you're in a big office building—the shell is the main server room that processes all data and commands, while the terminal is like the receptionist's desk where you deliver instructions to the server room to get things done.
 
+## Shell
+
+The most commonly used shell in Linux is the Bourne-Again Shell (BASH), part of the GNU project. Everything possible in the GUI can also be done in the shell, which offers more control, faster access to information and easy automation through scripts.
+
+Beside BASH shell, there also exist other shell like Ksh, Fish...
+
