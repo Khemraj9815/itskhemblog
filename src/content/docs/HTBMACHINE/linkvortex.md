@@ -6,9 +6,7 @@ description: walkthrough
 
 ![image.png](../../../assets/LinkVortex/image.png)
 
-[LinkVortex — Writeup HTB](https://medium.com/@anandhusuresh990/linkvortex-writeup-htb-5082f90b9507)
-
-initial sate
+initial state
 
 ![image.png](../../../assets/LinkVortex/image%201.png)
 
@@ -124,7 +122,7 @@ we found out that the ghost version is vulnerable
 
 - When symlink is uploaded and processed by the Ghost, it can point to any file within server’s filesystem.
     
-    ![image.png](../../../assets/LinkVortex%201b9ab0f53d1d807b8179debc029f369c/image%2024.png)
+    ![image.png](../../../assets/LinkVortex/image%2024.png)
     
 - this flaws allows attacker to access sensitive file
 
@@ -134,11 +132,11 @@ we found out that the ghost version is vulnerable
 
 OctopiFociPilfer45 admin@linkvortex.htb http://linkvortex.htb/ghost
 
-![image.png](../../../assets/LinkVortex%201b9ab0f53d1d807b8179debc029f369c/image%2025.png)
+![image.png](../../../assets/LinkVortex/image%2025.png)
 
 what could be more informative file like /etc/passwd/? I search for other sensitive file to read but didn’t get more informative than the /var/lib/ghost/config/.production.json file.
 
-![image.png](../../../assets/LinkVortex%201b9ab0f53d1d807b8179debc029f369c/image%2026.png)
+![image.png](../../../assets/LinkVortex/image%2026.png)
 
 The above file seems to be the more sensitive to compared to other file for now. As there could be configuration which includes
 
@@ -184,19 +182,19 @@ File content:
 }
 ```
 
-![image.png](../../../assets/LinkVortex%201b9ab0f53d1d807b8179debc029f369c/image%2027.png)
+![image.png](../../../assets/LinkVortex/image%2027.png)
 
-![image.png](../../../assets/LinkVortex%201b9ab0f53d1d807b8179debc029f369c/image%2028.png)
+![image.png](../../../assets/LinkVortex/image%2028.png)
 
-![image.png](../../../assets/LinkVortex%201b9ab0f53d1d807b8179debc029f369c/image%2029.png)
+![image.png](../../../assets/LinkVortex/image%2029.png)
 
-![image.png](../../../assets/LinkVortex%201b9ab0f53d1d807b8179debc029f369c/image%2030.png)
+![image.png](../../../assets/LinkVortex/image%2030.png)
 
-![image.png](../../../assets/LinkVortex%201b9ab0f53d1d807b8179debc029f369c/image%2031.png)
+![image.png](../../../assets/LinkVortex/image%2031.png)
 
 this script moves symlink to quarantine folder, if it points to critical file system.
 
-![possible exploit ](../../../assets/LinkVortex%201b9ab0f53d1d807b8179debc029f369c/image%2032.png)
+![possible exploit ](../../../assets/LinkVortex/image%2032.png)
 
 possible exploit 
 
@@ -225,3 +223,5 @@ This machine was bit easy and simple. The takeaway from this room is the concept
 ### Reference
 
 [Owned LinkVortex from Hack The Box!](https://www.hackthebox.com/achievement/machine/1873334/638)
+
+[LinkVortex — Writeup HTB](https://medium.com/@anandhusuresh990/linkvortex-writeup-htb-5082f90b9507)

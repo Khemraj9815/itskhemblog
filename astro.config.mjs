@@ -32,7 +32,10 @@ export default defineConfig({
 						{ label: 'CAP', slug: 'htbmachine/cap' },
 						{ label: 'CHEMISTRY', slug: 'htbmachine/chemistry' },
 						{ label: 'TITANIC', slug: 'htbmachine/titanic' },
-						{ label: 'Link Vortex', slug: 'htbmachine/linkvortex' },						
+						{ label: 'Link Vortex', slug: 'htbmachine/linkvortex' },
+						{label: "TwoMillion", slug: "htbmachine/2million"},	
+						{label: "Active", slug: "htbmachine/active"},	
+						{label: "CICADA", slug: "htbmachine/cicada"},						
 					],
 				},
 				// {
