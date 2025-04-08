@@ -20,6 +20,16 @@ export default defineConfig({
 						{label: "Shell", slug: "hackthebox/shell"},
 						{label: "Getting Help", slug: "hackthebox/gettinghelp"},
 						{label: "System Information", slug: "hackthebox/systeminfo"},
+						{label: "Navigation", slug: "hackthebox/navigation"},
+						{label: "Managing file and Directory", slug: "hackthebox/workingwfnd"},
+						
+					],
+				},
+				{
+					label: 'HACKTHEBOX MACHINE',
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: 'CAP', slug: 'htbmachine/cap' },
 						
 					],
 				},
