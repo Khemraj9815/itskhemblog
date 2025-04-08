@@ -2,7 +2,6 @@
 title: CAP
 description: walkthrough
 ---
-# CAP
 
 ![image.png](../../../assets/CAP%201a8ab0f53d1d803296a5c07f9b264669/image.png)
 
