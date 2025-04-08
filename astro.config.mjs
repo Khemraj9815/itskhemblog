@@ -32,6 +32,7 @@ export default defineConfig({
 						{ label: 'CAP', slug: 'htbmachine/cap' },
 						{ label: 'CHEMISTRY', slug: 'htbmachine/chemistry' },
 						{ label: 'TITANIC', slug: 'htbmachine/titanic' },
+						{ label: 'Link Vortex', slug: 'htbmachine/linkvortex' },						
 					],
 				},
 				// {
