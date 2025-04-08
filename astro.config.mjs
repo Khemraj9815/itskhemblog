@@ -31,6 +31,7 @@ export default defineConfig({
 						// Each item here is one entry in the navigation menu.
 						{ label: 'CAP', slug: 'htbmachine/cap' },
 						{ label: 'CHEMISTRY', slug: 'htbmachine/chemistry' },
+						{ label: 'TITANIC', slug: 'htbmachine/titanic' },
 					],
 				},
 				// {
