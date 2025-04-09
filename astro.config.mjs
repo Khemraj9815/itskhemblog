@@ -36,6 +36,25 @@ export default defineConfig({
 						{label: "TwoMillion", slug: "htbmachine/2million"},	
 						{label: "Active", slug: "htbmachine/active"},	
 						{label: "CICADA", slug: "htbmachine/cicada"},						
+						{label: "Blue", slug: "htbmachine/blue"},
+						{label: "Oopsie", slug: "htbmachine/oopsie"}						
+
+					],
+				},
+				{
+					label: 'TRYHACKME',
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: 'Hakcer Vs H4ck3r', slug: 'tryhackme/hackervshacker' },
+						{ label: 'Cyborg', slug: 'tryhackme/cyborg' },
+						{ label: 'Opacity', slug: 'tryhackme/opacity' },
+						{ label: 'Mr Robot', slug: 'tryhackme/mrrobot' },
+						{ label: 'Brooklyn Nine Nine', slug: 'tryhackme/brooklyn99' },
+						{ label: 'CHILL HACK', slug: 'tryhackme/chillhack' },
+						{ label: 'AGENT SUDO', slug: 'tryhackme/agentsudo' },
+						{ label: 'Bolt', slug: 'tryhackme/bolt' },
+						{ label: 'HA Joker CTF', slug: 'tryhackme/joker' },
+
 					],
 				},
 				// {
