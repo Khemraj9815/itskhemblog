@@ -7,9 +7,11 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: "its'khem",
-			social: {
-				github: 'https://github.com/Khemraj9815/itskhemblog',
+			social: [
+			 {
+				icon: 'github', label: 'GitHub', href: 'https://github.com/Khemraj9815/itskhemblog',
 			},
+		],
 			sidebar: [
 				{
 					label: 'Linux',
@@ -22,6 +24,12 @@ export default defineConfig({
 						{label: "System Information", slug: "hackthebox/systeminfo"},
 						{label: "Navigation", slug: "hackthebox/navigation"},
 						{label: "Managing file and Directory", slug: "hackthebox/workingwfnd"},
+						{label: "editing file", slug:"hackthebox/edit"},
+						{label: "find file", slug:"hackthebox/findfile"},
+						{label: "Filter Content", slug:"hackthebox/filtercontent"},
+						{label: "Regular Expression", slug:"hackthebox/regularexpression"},
+						{label: "Permission Management", slug:"hackthebox/permission"},
+
 						
 					],
 				},
