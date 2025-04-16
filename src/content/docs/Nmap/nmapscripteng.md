@@ -24,13 +24,13 @@ The Nmap Scripting Engine (NSE) enables the creation of Lua scripts to interact 
 
 We have several ways to define the desired scripts in Nmap.
 
-### **Default Scripts**
+### Default Scripts
 
 ```python
 [!bash!]$ sudo nmap <target> -sC
 ```
 
-### **Specific Scripts Category**
+### Specific Scripts Category
 
 ```python
 [!bash!]$ sudo nmap <target> --script <category>
@@ -38,7 +38,7 @@ We have several ways to define the desired scripts in Nmap.
 
 - learn about types of scripts
 
-### **Defined Scripts**
+### Defined Scripts
 
 ```python
 [!bash!]$ sudo nmap <target> --script <script-name>,<script-name>,...
@@ -46,7 +46,7 @@ We have several ways to define the desired scripts in Nmap.
 
 - we can define multiple scripts
 
-### **Nmap - Specifying Scripts**
+### Nmap - Specifying Scripts
 
 ```python
 [!bash!]$ sudo nmap 10.129.2.28 -p 25 --script banner,smtp-commands
@@ -70,7 +70,7 @@ MAC Address: DE:AD:00:00:BE:EF (Intel Corporate)
 
 As we can see the banner script in Nmap helps to identify the OS on target system, while the smtp-commands script shows available commands for smtp server, potentially revealing user info. The aggressive scan (-A) combines several scans: (-sV), (-O), traceroute(—traceroute) and default NSE scripts (-sC) for compressive assessment.
 
-### **Nmap - Aggressive Scan**
+### Nmap - Aggressive Scan
 
 ```python
 [!bash!]$ sudo nmap 10.129.2.28 -p 80 -A

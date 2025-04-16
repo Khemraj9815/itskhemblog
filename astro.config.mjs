@@ -65,13 +65,22 @@ export default defineConfig({
 
 					],
 				},
-				// {
-				// 	label: 'Guides',
-				// 	items: [
-				// 		// Each item here is one entry in the navigation menu.
-				// 		{ label: 'Example Guide', slug: 'guides/example' },
-				// 	],
-				// },
+
+				{
+					label: 'Nmap',
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: 'Intro to Nmap', slug: 'nmap/intro' },
+						{ label: 'Host Discovery', slug: 'nmap/hostdiscovery' },
+						{ label: 'Host and Port Scan', slug: 'nmap/hostandportscan' },
+						{ label: 'Saving Result', slug: 'nmap/saveresult' },
+						{ label: "Service Enumeration", slug: "nmap/serviceenu"},
+						{label: "Nmap Scripting Engine", slug: "nmap/nmapscripteng"}
+						
+
+
+					],
+				},
 				// {
 				// 	label: 'Reference',
 				// 	autogenerate: { directory: 'reference' },
