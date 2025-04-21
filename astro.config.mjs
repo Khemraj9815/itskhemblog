@@ -62,10 +62,10 @@ export default defineConfig({
 						{ label: 'AGENT SUDO', slug: 'tryhackme/agentsudo' },
 						{ label: 'Bolt', slug: 'tryhackme/bolt' },
 						{ label: 'HA Joker CTF', slug: 'tryhackme/joker' },
+						{label: "Active Directory Basics", slug: "tryhackme/activedir"}
 
 					],
 				},
-
 				{
 					label: 'Nmap',
 					items: [
@@ -76,6 +76,36 @@ export default defineConfig({
 						{ label: 'Saving Result', slug: 'nmap/saveresult' },
 						{ label: "Service Enumeration", slug: "nmap/serviceenu"},
 						{label: "Nmap Scripting Engine", slug: "nmap/nmapscripteng"}
+						
+
+
+					],
+				},
+				{
+					label: 'Foot Printing',
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: 'Enumeration Principles', slug: 'footprinting/enumerationp' },
+						{ label: 'Enumeration Methodlogy', slug: 'footprinting/enummethod' },
+						{ label: 'Domain Information', slug: 'footprinting/domaininfo' },
+						{ label: 'Cloud Resources', slug: 'footprinting/cloudres' },
+						{ label: "STAFF", slug: "footprinting/staff"},
+						// {label: "footprinting Scripting Engine", slug: "footprinting/footprintingscripteng"}
+						
+
+
+					],
+				},
+				{
+					label: 'Information Gathering - Web Edition',
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: 'Introduction', slug: 'infoweb/intro' },
+						{ label: 'UTILIZING WHOIS', slug: 'infoweb/utiwhois' },
+						{ label: 'DNS', slug: 'infoweb/dns' },
+						{ label: 'Subdomain', slug: 'infoweb/subdomain' },
+						// { label: "STAFF", slug: "infoweb/staff"},
+						// {label: "infoweb Scripting Engine", slug: "footprinting/footprintingscripteng"}
 						
 
 
