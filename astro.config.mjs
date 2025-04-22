@@ -90,7 +90,7 @@ export default defineConfig({
 						{ label: 'Domain Information', slug: 'footprinting/domaininfo' },
 						{ label: 'Cloud Resources', slug: 'footprinting/cloudres' },
 						{ label: "STAFF", slug: "footprinting/staff"},
-						// {label: "footprinting Scripting Engine", slug: "footprinting/footprintingscripteng"}
+						{label: "FTP", slug: "footprinting/ftp"}
 						
 
 
@@ -104,8 +104,8 @@ export default defineConfig({
 						{ label: 'UTILIZING WHOIS', slug: 'infoweb/utiwhois' },
 						{ label: 'DNS', slug: 'infoweb/dns' },
 						{ label: 'Subdomain', slug: 'infoweb/subdomain' },
-						// { label: "STAFF", slug: "infoweb/staff"},
-						// {label: "infoweb Scripting Engine", slug: "footprinting/footprintingscripteng"}
+						{ label: "Digging DNS", slug: "infoweb/digdns"},
+						{label: "Subdomain Brute-forcing", slug: "infoweb/subdomainbrutef"}
 						
 
 

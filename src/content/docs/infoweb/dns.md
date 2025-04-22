@@ -4,6 +4,8 @@ description: dns
 ---
  When you type a website name like [www.google.com](http://www.google.com/) into your browser, your computer doesn't understand names — it needs an IP address (like 8.8.8.8) to find and connect to the website.
 
+![dns](../../../assets/infogather/dns.png)
+
 You type a website name → DNS finds the matching IP address → You get to the website.
 
 1. Your Computer Asks for Directions (DNS Query): when we type website address, our computer first checks its memory to see if it already know from past visit. If not, it asks a DNS resolver (usually from our internet provider) to find the IP address.

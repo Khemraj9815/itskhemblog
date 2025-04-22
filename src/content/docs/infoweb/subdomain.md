@@ -28,4 +28,4 @@ information is gathered from external resources without querying DNS directly. M
 
 - combining info from both enumeration give full result of subdomain
 
-Just thinking when the time will come to use those things
+<!-- Just thinking when the time will come to use those things -->
