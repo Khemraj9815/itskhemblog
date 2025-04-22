@@ -91,7 +91,7 @@ One of the most common configurations of FTP servers is to allow anonymous acces
 this is how it looks like
 
 ```python
-itskhem@htb[/htb]$ ftp 10.129.14.136
+$ ftp 10.129.14.136
 
 Connected to 10.129.14.136.
 220 "Welcome to the HTB Academy vsFTP service."
@@ -202,7 +202,7 @@ drwxrwxr-x    2 ftp     ftp         4096 Sep 14 16:50 Employees
 if we want to download all the file that we have access to:
 
 ```python
-itskhem@htb[/htb]$ wget -m --no-passive ftp://anonymous:anonymous@10.129.14.136
+$ wget -m --no-passive ftp://anonymous:anonymous@10.129.14.136
 
 --2021-09-19 14:45:58--  ftp://anonymous:*password*@10.129.14.136/                                         
            => ‘10.129.14.136/.listing’                                                                     
@@ -230,7 +230,7 @@ Downloaded: 15 files, 1,7K in 0,001s (3,02 MB/s)
 ```
 
 ```python
-itskhem@htb[/htb]$ wget -m --no-passive ftp://anonymous:anonymous@10.129.14.136
+$ wget -m --no-passive ftp://anonymous:anonymous@10.129.14.136
 
 --2021-09-19 14:45:58--  ftp://anonymous:*password*@10.129.14.136/                                         
            => ‘10.129.14.136/.listing’                                                                     
@@ -258,7 +258,7 @@ Downloaded: 15 files, 1,7K in 0,001s (3,02 MB/s)
 ```
 
 ```python
-itskhem@htb[/htb]$ wget -m --no-passive ftp://anonymous:anonymous@10.129.14.136
+$ wget -m --no-passive ftp://anonymous:anonymous@10.129.14.136
 
 --2021-09-19 14:45:58--  ftp://anonymous:*password*@10.129.14.136/                                         
            => ‘10.129.14.136/.listing’                                                                     
@@ -286,7 +286,7 @@ Downloaded: 15 files, 1,7K in 0,001s (3,02 MB/s)
 ```
 
 ```python
-itskhem@htb[/htb]$ wget -m --no-passive ftp://anonymous:anonymous@10.129.14.136
+$ wget -m --no-passive ftp://anonymous:anonymous@10.129.14.136
 
 --2021-09-19 14:45:58--  ftp://anonymous:*password*@10.129.14.136/                                         
            => ‘10.129.14.136/.listing’                                                                     
@@ -316,7 +316,7 @@ Downloaded: 15 files, 1,7K in 0,001s (3,02 MB/s)
 All the NSE scripts are located on the Pwnbox in /usr/share/nmap/scripts/
 
 ```python
-itskhem@htb[/htb]$ find / -type f -name ftp* 2>/dev/null | grep scripts
+$ find / -type f -name ftp* 2>/dev/null | grep scripts
 
 /usr/share/nmap/scripts/ftp-syst.nse
 /usr/share/nmap/scripts/ftp-vsftpd-backdoor.nse
@@ -331,7 +331,7 @@ itskhem@htb[/htb]$ find / -type f -name ftp* 2>/dev/null | grep scripts
 The ftp-syst, for example, executes the STAT command, which displays information about the FTP server status. This includes configurations as well as the version of the FTP server. Nmap also provides the ability to trace the progress of NSE scripts at the network level if we use the --script-trace option in our scans. This lets us see what commands Nmap sends, what ports are used, and what responses we receive from the scanned server.
 
 ```python
-itskhem@htb[/htb]$ sudo nmap -sV -p21 -sC -A 10.129.14.136 --script-trace
+$ sudo nmap -sV -p21 -sC -A 10.129.14.136 --script-trace
 
 Starting Nmap 7.80 ( https://nmap.org ) at 2021-09-19 13:54 CEST                                                                                                                                                   
 NSOCK INFO [11.4640s] nsock_trace_handler_callback(): Callback: CONNECT SUCCESS for EID 8 [10.129.14.136:21]                                   
@@ -354,17 +354,17 @@ NSE: TCP 10.10.14.4:54228 < 10.129.14.136:21 | 220 Welcome to HTB-Academy FTP se
 ### **Service Interaction**
 
 ```python
-itskhem@htb[/htb]$ nc -nv 10.129.14.136 21
+$ nc -nv 10.129.14.136 21
 ```
 
 ```python
-itskhem@htb[/htb]$ telnet 10.129.14.136 21
+$ telnet 10.129.14.136 21
 ```
 
 It looks slightly different if the FTP server runs with TLS/SSL encryption. Because then we need a client that can handle TLS/SSL. For this, we can use the client openssl and communicate with the FTP server. The good thing about using openssl is that we can see the SSL certificate, which can also be helpful.
 
 ```python
-itskhem@htb[/htb]$ openssl s_client -connect 10.129.14.136:21 -starttls ftp
+$ openssl s_client -connect 10.129.14.136:21 -starttls ftp
 
 CONNECTED(00000003)                                                                                      
 Can't use SSL_get_servername                        

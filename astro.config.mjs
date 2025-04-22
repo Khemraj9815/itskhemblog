@@ -90,7 +90,20 @@ export default defineConfig({
 						{ label: 'Domain Information', slug: 'footprinting/domaininfo' },
 						{ label: 'Cloud Resources', slug: 'footprinting/cloudres' },
 						{ label: "STAFF", slug: "footprinting/staff"},
-						{label: "FTP", slug: "footprinting/ftp"}
+						{label: "FTP", slug: "footprinting/ftp"},
+						{label: "SMB", slug: "footprinting/smb"},
+						{label: "NFS", slug: "footprinting/nfs"},
+						{label: "SMTP", slug: "footprinting/smtp"},
+						{label: "IMAP/POP3", slug: "footprinting/imap"},
+						{label: "SNMP", slug: "footprinting/snmp"},
+						{label: "MYSQL", slug: "footprinting/mysql"},
+						{label: "MSSQL", slug: "footprinting/mssql"},
+						{label: "Oracle TNS", slug: "footprinting/oracle"},
+						// {label: "FTP", slug: "footprinting/ftp"},
+						// {label: "FTP", slug: "footprinting/ftp"},
+						// {label: "FTP", slug: "footprinting/ftp"},
+						// {label: "FTP", slug: "footprinting/ftp"},
+						// {label: "FTP", slug: "footprinting/ftp"},
 						
 
 
