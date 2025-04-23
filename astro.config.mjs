@@ -99,14 +99,8 @@ export default defineConfig({
 						{label: "MYSQL", slug: "footprinting/mysql"},
 						{label: "MSSQL", slug: "footprinting/mssql"},
 						{label: "Oracle TNS", slug: "footprinting/oracle"},
-						// {label: "FTP", slug: "footprinting/ftp"},
-						// {label: "FTP", slug: "footprinting/ftp"},
-						// {label: "FTP", slug: "footprinting/ftp"},
-						// {label: "FTP", slug: "footprinting/ftp"},
-						// {label: "FTP", slug: "footprinting/ftp"},
-						
-
-
+						{label: "Linux Remote Management Protocol", slug: "footprinting/lrmp"},
+						{label: "Windows Remote Management Protocol", slug: "footprinting/wrmp"},
 					],
 				},
 				{
@@ -118,7 +112,11 @@ export default defineConfig({
 						{ label: 'DNS', slug: 'infoweb/dns' },
 						{ label: 'Subdomain', slug: 'infoweb/subdomain' },
 						{ label: "Digging DNS", slug: "infoweb/digdns"},
-						{label: "Subdomain Brute-forcing", slug: "infoweb/subdomainbrutef"}
+						{label: "Subdomain Brute-forcing", slug: "infoweb/subdomainbrutef"},
+						{ label: 'DNS', slug: 'infoweb/dns' },
+						{ label: 'Certificate Transparency', slug: 'infoweb/certificate' },
+						{ label: 'Crawling', slug: 'infoweb/crawling' },
+						// { label: 'DNS', slug: 'infoweb/dns' },
 						
 
 

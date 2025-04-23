@@ -25,6 +25,7 @@ description: crawling
 - Unlike fuzzing (which guesses links), crawling follows actual ones.
 
 
+
 ### Crawling Strategies
 
 #### 1. Breadth-First Crawling
@@ -33,6 +34,8 @@ description: crawling
 ```
     Seed → Page 1 → Page 2 → Page 3 ...
 ```
+
+![image](../../../assets/infogather/seedurl.png)
 
 #### 2. Depth-First Crawling
 - Follows one link path deeply before backtracking.
