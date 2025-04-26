@@ -3,8 +3,6 @@ title: Crawling
 description: crawling
 ---
 
-## **Crawling (Spidering)**
-
 ### Definition
 - Automated, systematic browsing of the web.
 - Crawlers (bots) follow links to discover and index web pages.

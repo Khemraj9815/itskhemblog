@@ -122,6 +122,25 @@ export default defineConfig({
 
 					],
 				},
+				{
+					label: 'Active Directory',
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: 'Introduction', slug: 'ad/intro' },
+						{ label: 'AD Structure', slug: 'ad/adstructure' },
+						// { label: 'DNS', slug: 'ad/dns' },
+						// { label: 'Subdomain', slug: 'ad/subdomain' },
+						// { label: "Digging DNS", slug: "ad/digdns"},
+						// {label: "Subdomain Brute-forcing", slug: "ad/subdomainbrutef"},
+						// { label: 'DNS', slug: 'ad/dns' },
+						// { label: 'Certificate Transparency', slug: 'ad/certificate' },
+						// { label: 'Crawling', slug: 'ad/crawling' },
+					    // { label: 'DNS', slug: 'ad/dns' },
+						
+
+
+					],
+				},
 				// {
 				// 	label: 'Reference',
 				// 	autogenerate: { directory: 'reference' },
