@@ -128,9 +128,10 @@ export default defineConfig({
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Introduction', slug: 'ad/intro' },
 						{ label: 'AD Structure', slug: 'ad/adstructure' },
-						{ label: 'Active Directory Objects', slug: 'ad/objectj' },
-						// { label: 'Subdomain', slug: 'ad/subdomain' },
-						// { label: "Digging DNS", slug: "ad/digdns"},
+						{ label: 'Active Directory Objects', slug: 'ad/object' },
+						{label: "Active Directory Terminology", slug: "ad/terminology"},
+						{ label: 'Active Directory Functionality', slug: 'ad/adfunctionality' },
+						{ label: "Auth LDAP Kerberos", slug: "ad/authldap"},
 						// {label: "Subdomain Brute-forcing", slug: "ad/subdomainbrutef"},
 						// { label: 'DNS', slug: 'ad/dns' },
 						// { label: 'Certificate Transparency', slug: 'ad/certificate' },
