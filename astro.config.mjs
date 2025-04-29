@@ -128,7 +128,7 @@ export default defineConfig({
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Introduction', slug: 'ad/intro' },
 						{ label: 'AD Structure', slug: 'ad/adstructure' },
-						// { label: 'DNS', slug: 'ad/dns' },
+						{ label: 'Active Directory Objects', slug: 'ad/objectj' },
 						// { label: 'Subdomain', slug: 'ad/subdomain' },
 						// { label: "Digging DNS", slug: "ad/digdns"},
 						// {label: "Subdomain Brute-forcing", slug: "ad/subdomainbrutef"},
