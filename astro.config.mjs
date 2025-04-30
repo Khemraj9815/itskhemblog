@@ -136,10 +136,8 @@ export default defineConfig({
 						{ label: 'User & Machine Account', slug: 'ad/userma' },
 						{ label: 'Active Directory Groups', slug: 'ad/adgroup' },
 						{ label: 'Active Directory Rights and Privileges', slug: 'ad/adrp' },
-					    // { label: 'DNS', slug: 'ad/dns' },
-						
-
-
+					    { label: 'Security AD', slug: 'ad/securityad' },
+					    { label: 'AD Group Policy', slug: 'ad/adgpolicy' },
 					],
 				},
 				// {
