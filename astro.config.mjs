@@ -132,10 +132,10 @@ export default defineConfig({
 						{label: "Active Directory Terminology", slug: "ad/terminology"},
 						{ label: 'Active Directory Functionality', slug: 'ad/adfunctionality' },
 						{ label: "Auth LDAP Kerberos", slug: "ad/authldap"},
-						// {label: "Subdomain Brute-forcing", slug: "ad/subdomainbrutef"},
-						// { label: 'DNS', slug: 'ad/dns' },
-						// { label: 'Certificate Transparency', slug: 'ad/certificate' },
-						// { label: 'Crawling', slug: 'ad/crawling' },
+						{label: "NTLM Authentication", slug: "ad/ntlmauth"},
+						{ label: 'User & Machine Account', slug: 'ad/userma' },
+						{ label: 'Active Directory Groups', slug: 'ad/adgroup' },
+						{ label: 'Active Directory Rights and Privileges', slug: 'ad/adrp' },
 					    // { label: 'DNS', slug: 'ad/dns' },
 						
 
