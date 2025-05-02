@@ -45,7 +45,8 @@ export default defineConfig({
 						{label: "Active", slug: "htbmachine/active"},	
 						{label: "CICADA", slug: "htbmachine/cicada"},						
 						{label: "Blue", slug: "htbmachine/blue"},
-						{label: "Oopsie", slug: "htbmachine/oopsie"}						
+						{label: "Oopsie", slug: "htbmachine/oopsie"},
+						{label: "PermX", slug: "htbmachine/permx"}					
 
 					],
 				},
